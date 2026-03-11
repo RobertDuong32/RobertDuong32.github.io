@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robert Duong — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">RD</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#organizations">Organizations</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-shape"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal delay-1">Robert<br /><em>Duong</em></h1>
+      <div class="hero-photo reveal delay-2">
+        <div class="hero-photo-frame">
+          <img src="IMG_1642.jpg" alt="Robert Duong" style="width:340px; height:400px; object-fit:cover; object-position:center top; display:block;" />
+        </div>
+      </div>
+      <p class="hero-tagline reveal delay-3">Computer Science · Honors Scholar · Problem Solver</p>
+      <div class="hero-actions reveal delay-3">
+        <a href="#experience" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal delay-1">
+          <h2 class="section-heading">A student driven by<br /><em>service & curiosity.</em></h2>
+          <p>I'm a hard-working student enrolled in the prestigious Rutgers University Schools of Arts and Sciences Honors Program. I put my best effort into every task and believe that being able to help people — even in the smallest way — lifts everyone up.</p>
+          <p>I believe everyone should be able to live comfortably, and that service is one of the major steps toward that overall goal.</p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">University</span>
+              <span class="meta-value">Rutgers SAS Honors Program</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">GPA</span>
+              <span class="meta-value">3.3 (as of Spring 2024)</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Expected Graduation</span>
+              <span class="meta-value">2027</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Languages</span>
+              <span class="meta-value">English, Vietnamese</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card-col reveal delay-2">
+          <div class="about-accent-card">
+            <div class="accent-card-icon">🎓</div>
+            <p class="accent-card-title">American Legion Jersey Boys State</p>
+            <p class="accent-card-sub">Graduate — 2022</p>
+          </div>
+          <div class="about-accent-card secondary">
+            <div class="accent-card-icon">🌟</div>
+            <p class="accent-card-title">SAS Honors Ambassador</p>
+            <p class="accent-card-sub">Rutgers University — 2023–2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / PROJECTS -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label reveal">02 — Experience &amp; Activities</div>
+      <h2 class="section-heading centered reveal delay-1">Things I've <em>built &amp; led.</em></h2>
+      <div class="experience-grid">
+
+        <article class="exp-card reveal delay-1">
+          <div class="exp-card-header">
+            <span class="exp-tag">Leadership</span>
+            <span class="exp-year">2023–2024</span>
+          </div>
+          <h3>Rutgers SAS Honors Ambassador</h3>
+          <p>Represented the School of Arts and Sciences Honors Program, leading events and speaking to prospective students and parents during "Rutgers Day." Worked alongside fellow ambassadors to make events as informative and welcoming as possible.</p>
+          <ul class="exp-highlights">
+            <li>Public speaking to large audiences</li>
+            <li>Event coordination &amp; logistics</li>
+            <li>Cross-team collaboration</li>
+          </ul>
+        </article>
+
+        <article class="exp-card reveal delay-2">
+          <div class="exp-card-header">
+            <span class="exp-tag">Hackathon</span>
+            <span class="exp-year">2023–2024</span>
+          </div>
+          <h3>HackRU</h3>
+          <p>Participated in HackRU, Rutgers' flagship hackathon. Focused on helping set up and monitor the event, ensuring all participants knew where to go and had a smooth experience throughout the day.</p>
+          <ul class="exp-highlights">
+            <li>Event operations support</li>
+            <li>Participant guidance</li>
+            <li>Team coordination</li>
+          </ul>
+        </article>
+
+        <article class="exp-card reveal delay-3">
+          <div class="exp-card-header">
+            <span class="exp-tag">Entrepreneurship</span>
+            <span class="exp-year">2020–2023</span>
+          </div>
+          <h3>TutorFree — Founder</h3>
+          <p>Founded a small tutoring business during quarantine, born from a passion to help students who needed academic support. Advertised across multiple online platforms and provided 1-on-1 tutoring to a remarkable number of students given the limited resources available.</p>
+          <ul class="exp-highlights">
+            <li>Business creation &amp; marketing</li>
+            <li>1-on-1 academic tutoring</li>
+            <li>Multi-platform online presence</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">03 — Projects</div>
+      <h2 class="section-heading centered reveal delay-1">Things I've <em>built &amp; shipped.</em></h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal delay-1">
+          <div class="project-card-header">
+            <div class="project-icon">♟️</div>
+            <span class="project-tag chess-tag">Game Dev</span>
+          </div>
+          <h3>Chess Minigames</h3>
+          <p class="project-date">August 2024</p>
+          <p>Built a series of chess minigames that preserve the classic rules of chess while reimagining the board entirely. Variations include no-queens mode, knights replacing pawns, and other creative twists that challenge conventional chess strategy.</p>
+          <div class="project-tech">
+            <span>Game Design</span>
+            <span>Chess Logic</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-card-header">
+            <div class="project-icon">🤖</div>
+            <span class="project-tag ai-tag">AI / Bot</span>
+          </div>
+          <h3>AI Precise Image Creator</h3>
+          <p class="project-date">July 2024</p>
+          <p>Built a Discord bot powered by AI that generates images through precise text-based commands — unlike typical AI image generators, this one builds images step-by-step via small descriptions. Commands like "Make the image 800×800 pixels" or "Fill background with HEX #03a5fc" give users full control over the output.</p>
+          <div class="project-tech">
+            <span>Discord API</span>
+            <span>AI / ML</span>
+            <span>Python</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-3">
+          <div class="project-card-header">
+            <div class="project-icon">🎮</div>
+            <span class="project-tag simon-tag">Web App</span>
+          </div>
+          <h3>Simon Game</h3>
+          <p class="project-date">October – November 2023</p>
+          <p>Built a fully functional Simon game featuring four colored buttons — red, green, yellow, and blue. The game randomly selects a sequence of buttons that grows with each round. Players must match the pattern; failing ends the game and displays their score.</p>
+          <div class="project-tech">
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+            <span>Game Logic</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ORGANIZATIONS -->
+  <section id="organizations">
+    <div class="container">
+      <div class="section-label reveal">04 — Organizations</div>
+      <h2 class="section-heading centered reveal delay-1">Communities I'm <em>part of.</em></h2>
+      <div class="org-list">
+
+        <div class="org-item reveal delay-1">
+          <div class="org-icon">🏛️</div>
+          <div class="org-body">
+            <div class="org-header">
+              <h3>Rutgers SAS Honors Program</h3>
+              <span class="org-date">Sep 2023 – Present</span>
+            </div>
+            <p>A prestigious honors program where I network with fellow honors students and gain access to exclusive academic and professional opportunities not available in the general student body.</p>
+          </div>
+        </div>
+
+        <div class="org-item reveal delay-2">
+          <div class="org-icon">💻</div>
+          <div class="org-body">
+            <div class="org-header">
+              <h3>Rutgers USACS</h3>
+              <span class="org-date">Sep 2024 – Present</span>
+            </div>
+            <p>Participated in a wide range of activities and events through Rutgers' undergraduate computer science club, sharpening my CS skills and connecting with like-minded students in the field.</p>
+          </div>
+        </div>
+
+        <div class="org-item reveal delay-3">
+          <div class="org-icon">♟️</div>
+          <div class="org-body">
+            <div class="org-header">
+              <h3>Chess Club — Collegiate Chess League</h3>
+              <span class="org-date">Sep 2023 – Present</span>
+            </div>
+            <p>Represented Rutgers in the Collegiate Chess League (CCL), a prestigious tournament run in partnership with Chess.com. Competed at a high level and contributed to Rutgers' standing in the league.</p>
+          </div>
+        </div>
+
+        <div class="org-item reveal delay-1">
+          <div class="org-icon">🎓</div>
+          <div class="org-body">
+            <div class="org-header">
+              <h3>Rutgers SAS Honors Ambassador</h3>
+              <span class="org-date">Feb 2023 – Present</span>
+            </div>
+            <p>Served as a role model and representative for the SAS Honors Program at Rutgers Day, guiding families and prospective students through the campus and answering their questions about Rutgers University.</p>
+          </div>
+        </div>
+
+        <div class="org-item reveal delay-2">
+          <div class="org-icon">🕹️</div>
+          <div class="org-body">
+            <div class="org-header">
+              <h3>RU Creation of Games Society</h3>
+              <span class="org-date">Sep 2024 – Present</span>
+            </div>
+            <p>Active member of Rutgers' game development club, collaborating with a team to brainstorm, design, and build original games from the ground up.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">05 — Skills &amp; Strengths</div>
+      <h2 class="section-heading centered reveal delay-1">What I bring<br /><em>to the table.</em></h2>
+      <div class="skills-wrapper">
+        <div class="skills-col reveal delay-1">
+          <h4 class="skills-col-title">Technical Skills</h4>
+          <div class="skill-pill-group">
+            <span class="skill-pill featured">Computer Science</span>
+            <span class="skill-pill featured">Mathematics</span>
+            <span class="skill-pill">English Writing</span>
+          </div>
+        </div>
+        <div class="skills-col reveal delay-2">
+          <h4 class="skills-col-title">Core Strengths</h4>
+          <div class="strengths-grid">
+            <div class="strength-item">
+              <div class="strength-icon">🔍</div>
+              <span>Problem Solving</span>
+            </div>
+            <div class="strength-item">
+              <div class="strength-icon">💡</div>
+              <span>Critical Thinking</span>
+            </div>
+            <div class="strength-item">
+              <div class="strength-icon">🗣️</div>
+              <span>Communication</span>
+            </div>
+            <div class="strength-item">
+              <div class="strength-icon">⚡</div>
+              <span>Work Ethic</span>
+            </div>
+            <div class="strength-item">
+              <div class="strength-icon">🔀</div>
+              <span>Multi-tasking</span>
+            </div>
+            <div class="strength-item">
+              <div class="strength-icon">🔥</div>
+              <span>Enthusiasm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label reveal">06 — Contact</div>
+      <div class="contact-inner">
+        <div class="contact-text reveal delay-1">
+          <h2 class="section-heading">Let's work<br /><em>together.</em></h2>
+          <p>Whether you want to collaborate, ask a question, or just say hello — my inbox is always open.</p>
+        </div>
+        <div class="contact-links reveal delay-2">
+          <a href="/cdn-cgi/l/email-protection#f4869b9691868090819b9a93c5c4c3c6c5b49399959d98da979b99" class="contact-item">
+            <div class="contact-item-icon">✉</div>
+            <div>
+              <p class="contact-item-label">Email</p>
+              <p class="contact-item-value"><span class="__cf_email__" data-cfemail="83f1ece1e6f1f7e7f6ecede4b2b3b4b1b2c3e4eee2eaefade0ecee">[email&#160;protected]</span></p>
+            </div>
+          </a>
+          <a href="tel:8623289049" class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <p class="contact-item-label">Phone</p>
+              <p class="contact-item-value">862-328-9049</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">Robert Duong</span>
+      <sp
